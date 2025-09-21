@@ -4,7 +4,6 @@ import React from "react";
 export default function Registry() {
   // Replace hrefs with your actual registry URLs
   const registries = [
-
     {
       name: "Amazon",
       href: "https://www.amazon.com/wedding/registry/PYG4CZXGAGZS",
@@ -44,7 +43,6 @@ export default function Registry() {
         <p className="mt-10 sm:mt-12 max-w-4xl mx-auto text-gray-600 leading-8 text-lg">
           Your presence is the greatest gift of all, but if you’d like to bless
           us further, you can visit our wedding registry{" "}
-          <button></button>
           <a
             href={registryHubHref}
             className="text-emerald-700 underline decoration-emerald-300 underline-offset-4 hover:text-emerald-800"
