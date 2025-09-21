@@ -10,7 +10,7 @@ import IntroBanner from "../components/IntroBanner.jsx";
 
 export default function Home() {
   return (
-    <>
+    <div className="overflow-x-hidden">
       <Hero />
       <Story/>
       <Countdown/>
@@ -24,7 +24,7 @@ export default function Home() {
         location="Texas"
       />
       {/* If you later want “sections under the hero”, keep them on this page. */}
-    </>
+    </div>
   );
 }
 
