@@ -2,9 +2,9 @@ import React from "react";
 import { GiButterflyFlower } from "react-icons/gi";
 
 export default function IntroBanner({
-  names = "Olivia & Enrico",
-  date = "December 15, 2026",
-  location = "New York, Brooklyn",
+  names = "Jeff & Theresa",
+  date = "November 30, 2026",
+  location = "Texas, USA",
 }) {
   return (
     <section className="bg-[#fbf8f6] py-16 sm:py-20 lg:py-24 font-serif">

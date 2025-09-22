@@ -9,8 +9,8 @@ export default function Hero() {
         alt="Wedding background"
       />
       <div className="relative z-10 text-center text-white px-4">
-        <h1 className="font-script text-[clamp(48px,9vw,120px)] leading-none drop-shadow-[0_2px_12px_rgba(0,0,0,0.25)]">
-          Jeff &amp; Theresa
+        <h1 className="font-script text-[clamp(48px,5vw,120px)] leading-none drop-shadow-[0_2px_12px_rgba(0,0,0,0.25)]">
+          Jeff kekombe <br/> &amp; <br/> Theresa Tshisekedi
         </h1>
         <p className="mt-3 tracking-[0.35em] text-[clamp(12px,2vw,16px)] drop-shadow-[0_2px_10px_rgba(0,0,0,0.25)]">
           30 NOVEMBER, 2025 — TEXAS

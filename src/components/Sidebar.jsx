@@ -73,7 +73,7 @@ export default function Sidebar({ onNavigate }) {
   };
 
   return (
-    <div className="flex flex-col gap-7 h-full w-full bg-[#FFF0F5] p-8">
+    <div className="flex flex-col gap-7 h-full w-full bg-[#FFF0F5] p-4">
       <div className="text-center pt-2">
         <div className="w-full flex justify-center items-center">
           <img src="/image/flower.png" className="h-[50px]" alt="" />
