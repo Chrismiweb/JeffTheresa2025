@@ -122,7 +122,7 @@ export default function Countdown({
   minute = 0,
   second = 0,
   title = "We will become a family in",
-  bgUrl = "/image/man-proposed-marriage.jpg",
+  bgUrl = "/image/1349A235-CD58-48BF-9ADC-F38F59802044.jpg",
 }) {
   const target = useMemo(() => nextOccurrence({ month, day, hour, minute, second }), [month, day, hour, minute, second]);
   const [t, setT] = useState(() => diffParts(target));
